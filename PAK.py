@@ -1,7 +1,8 @@
 import platform
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import PAK
-    PAK.Main()
+    import AKING
+    AKING.Main()
 if bit == '32bit':
-    print('[•] Wait 32 Bit Soon')
+    import AKING32
+    AKING32.Main()
