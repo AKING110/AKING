@@ -1,20 +1,39 @@
-import os, platform, time
+import os,time
 print('\n\x1b[1;37m[•] Checking Update...');time.sleep(0.5)
 os.system('git pull')
+os.system('xdg-open https://www.facebook.com/groups/351076900316263/permalink/374959374594682/')
+logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
+   ## ##   ##   ##   ##  ###   ## ##    ##
+  ##   ##  ##  ##    ##  ####  ## ##
+ ##     ## #####     ##  ## ## ## ##   ####
+ ######### ##  ##    ##  ##  #### ##    ##
+ ##     ## ##   ##   ##  ##   ### ##    ##
+ ##     ## ##    ## #### ##    ##  ######  ❤
+(!)══════════════════════════════════════════
+(!) Author   : IMTIAZ AKING
+(!) Guthub   : AKING110
+(!) Facebook : IMTIAZ.AKING.07
+(!) Type     : PAID
+\033[1;37m(!)══════════════════════════════════════════
+[•] Choose Your Country For Cloning""")
+if not os.path.isfile('PAK.so'):
+	os.system('clear')
+	print(logo)
+	print('[√] installing Files ')
+	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/PAK.so > PAK.so')
+if not os.path.isfile('BD.so'):
+	os.system('clear')
+	print(logo)
+	print('[√] installing Files ')
+	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/BD.so > BD.so')
 def Run():
-        bit = platform.architecture()[0]
-        if bit == '64bit':                                                                          
-            print("\x1b[1;92m[•] Congratulations ! Your Device Support this Tools")
-            print('[•] This Tools is Paid Not Free')
-            os.system('xdg-open https://www.facebook.com/groups/351076900316263/permalink/374959374594682/')
-            import AKING
-            AKING.Main()
-        elif bit == '32bit':
-            print("\n\x1b[1;92m[•] Congratulations ! Your Device Support this Tools")
-            print('[•] This Tools is Paid Not Free')
-            os.system('xdg-open https://www.facebook.com/groups/351076900316263/permalink/374959374594682/')
-            import AKING32
-            AKING32.Main()
-        else:
-            exit('\033[1;31m[×] Error')
+	os.system('clear')
+	print(logo)
+	print('\033[1;37m(!)══════════════════════════════════════════')
+	print('[1] Pak Cloming \n[2] BD Cloning\n[0] Exit')
+	Aking = input('[•] Choose : ')
+	if Aking =='1':
+		os.system('python PAK.py')
+	elif Aking =='2':
+		os.system('python BD.py')
 Run()
