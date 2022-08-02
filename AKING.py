@@ -15,11 +15,16 @@ logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
 (!) Facebook : IMTIAZ.AKING.07
 (!) Type     : PAID
 \033[1;37m(!)══════════════════════════════════════════""")
-if not os.path.isfile('PAK.so'):
+if not os.path.isfile('AKING.so'):
 	os.system('clear')
 	print(logo)
 	print('[√] installing Files ')
-	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/PAK.so > PAK.so')
+	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so > AKING.so')
+if not os.path.isfile('AKING32.so'):
+	os.system('clear')
+	print(logo)
+	print('[√] installing Files ')
+	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING32.so > AKING32.so')
 if not os.path.isfile('BD.so'):
 	os.system('clear')
 	print(logo)
