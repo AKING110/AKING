@@ -14,7 +14,7 @@ logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
 (!) Guthub   : AKING110
 (!) Facebook : IMTIAZ.AKING.07
 (!) Type     : PAID
-(!) Version   : 1.2.0
+(!) Version  : 1.2.0
 \033[1;37m(!)══════════════════════════════════════════""")
 if not os.path.isfile('AKING32.so'):
 	os.system('clear')
