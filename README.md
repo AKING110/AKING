@@ -21,7 +21,7 @@ PAID TOOLS
 - `pip install requests`
 - `pip install mechanize`
 - `pip install bs4`
-- `rm -rf AKINH`
+- `rm -rf AKING`
 - `git clone https://github.com/AKING110/AKING.git`
 - `cd AKING`
 - `python AKING.py`
