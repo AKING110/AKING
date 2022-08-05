@@ -12,9 +12,9 @@ logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
 (!)══════════════════════════════════════════
 (!) Author   : IMTIAZ AKING
 (!) Guthub   : AKING110
-(!) Facebook : IMTIAZ.AKING.07
+(!) Facebook : MR.AKING.07
 (!) Type     : PAID
-(!) Version  : 1.2.0
+(!) Version  : 1.2.1
 \033[1;37m(!)══════════════════════════════════════════""")
 
 def Run():
