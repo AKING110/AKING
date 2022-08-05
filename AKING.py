@@ -16,16 +16,7 @@ logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
 (!) Type     : PAID
 (!) Version  : 1.2.0
 \033[1;37m(!)══════════════════════════════════════════""")
-if not os.path.isfile('AKING32.so'):
-	os.system('clear')
-	print(logo)
-	print('[√] installing Files ')
-	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING32.so > AKING32.so')
-if not os.path.isfile('BD.so'):
-	os.system('clear')
-	print(logo)
-	print('[√] installing Files ')
-	os.system('curl -L https://raw.githubusercontent.com/AKING110/Data/main/BD.so > BD.so')
+
 def Run():
 	bit = platform.architecture()[0]
 	os.system('clear')
