@@ -1,6 +1,7 @@
 import os,time,platform
 print('\n\x1b[1;37m[•] Checking Update...');time.sleep(0.5)
 os.system('git pull')
+os.system('rm -rf .urxx.txt')
 os.system('xdg-open https://www.facebook.com/groups/351076900316263/permalink/374959374594682/')
 logo = ("""\033[1;37m    ###    ##    ## #### ##    ##  ######  ❤
    ## ##   ##   ##   ##  ###   ## ##    ##
