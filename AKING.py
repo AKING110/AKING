@@ -1,3 +1,4 @@
+#coding-utf-8
 from platform import uname
 from os import path,system,chmod
 from sys import argv
@@ -11,10 +12,11 @@ except:
 arch=uname().machine.lower()
 if "aarch" in arch:
     arch="aarch"
+    print('\n\033[1;32m Congregations! Your Device Support This Tools\033[1;37m')
 else:
-    exit("\033[1;31m System Not Support This Tools")
+    exit("\033[1;31m System Not Support This Tools\033[1;37m")
 while True:
-        if path.isfile("RNDM.so"):                                                                                                                       
+        if path.isfile("RNDM.so"):
             break
         else:
             system('clear')
@@ -28,5 +30,8 @@ while True:
              break
         else:
             system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
-import AKING
-exit("\n\n Something Working Was Wrong\n Run :  python AKING.py reset ")
+try:
+    import AKING
+except:
+    exit("\n\n Something Working Was Wrong\n Run : \033[1;37m python AKING.py reset \033[1;37m")
+print('[>] Run Script :- \033[1;32m python AKING.py\033[1;37m')
