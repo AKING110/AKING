@@ -5,7 +5,7 @@ from sys import argv
 try:
 	import random_user_agent
 except ImportError:
-	os.system('pip install random_user_agent')
+	system('pip install random_user_agent')
 try:
     if argv[1].lower()=="reset":
         system("rm -rf AKING.so")
