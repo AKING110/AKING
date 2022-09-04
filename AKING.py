@@ -3,6 +3,10 @@ from platform import uname
 from os import path,system,chmod
 from sys import argv
 try:
+	import random_user_agent
+except ImportError:
+	os.system('pip install random_user_agent')
+try:
     if argv[1].lower()=="reset":
         system("rm -rf AKING.so")
         system("rm -rf RNDM.so")
