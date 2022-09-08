@@ -28,5 +28,5 @@ PAID TOOLS
 
 
 
- ___This Tools is Paid ___</br>
+ ___This Tools is Paid___</br>
  [![Whatsapp](https://img.shields.io/badge/Whatsapp-AKING-deepgreen?style=flat-square&logo=whatsapp)](https://wa.me/+923237528063)
