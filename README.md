@@ -25,12 +25,7 @@ PAID TOOLS
 - `git clone https://github.com/AKING110/AKING.git`
 - `cd AKING`
 - `python AKING.py`
-     
-```Single Tools For Run
-rm -rf AKING
-git clone https://github.com/AKING110/AKING.git
-cd AKING
-python AKING.py```
+
 
 
  ___This Tools is Paid ___</br>
