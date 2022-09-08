@@ -26,11 +26,11 @@ PAID TOOLS
 - `cd AKING`
 - `python AKING.py`
      
-```Single Tools For Run
+___Single Tools For Run
 rm -rf AKING
 git clone https://github.com/AKING110/AKING.git
 cd AKING
-python AKING.py```
+python AKING.py___
 
 
  ```This Tools is Paid ```</br>
