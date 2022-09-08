@@ -26,6 +26,12 @@ PAID TOOLS
 - `cd AKING`
 - `python AKING.py`
      
+```Single Tools For Run
+rm -rf AKING
+git clone https://github.com/AKING110/AKING.git
+cd AKING
+python AKING.py```
+
 
  ```This Tools is Paid ```</br>
  [![Whatsapp](https://img.shields.io/badge/Whatsapp-AKING-deepgreen?style=flat-square&logo=whatsapp)](https://wa.me/+923237528063)
