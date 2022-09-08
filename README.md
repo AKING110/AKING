@@ -24,7 +24,6 @@ PAID TOOLS
 - `rm -rf AKING`
 - `git clone https://github.com/AKING110/AKING.git`
 - `cd AKING`
-- `git pull`
 - `python AKING.py`
      
 
