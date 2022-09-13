@@ -17,6 +17,7 @@ arch=uname().machine.lower()
 if "aarch" in arch:
     arch="aarch"
     print('\n\033[1;32mCongratulations! Your Device Support This Tools\033[1;37m')
+    print('\n installing setup...\n')
     system('pkg install play-audio')
 else:
     exit("\033[1;31mSystem Not Support This Tools\033[1;37m")
