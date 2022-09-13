@@ -23,7 +23,11 @@ while True:
         if path.isfile("AKING.so"):
             break
         else:
-            system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
+            system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.cpython-310.so -o AKING.so")
+        elif path.isfile("dz.so"):
+            break
+        else:
+            system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
 try:
     import random_user_agent
     import AKING
