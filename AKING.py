@@ -17,8 +17,6 @@ arch=uname().machine.lower()
 if "aarch" in arch:
     arch="aarch"
     print('\n\033[1;32mCongratulations! Your Device Support This Tools\033[1;37m')
-    print('\n installing setup...\n')
-    system('pkg install play-audio')
 else:
     exit("\033[1;31mSystem Not Support This Tools\033[1;37m")
 while True:
@@ -31,7 +29,6 @@ while True:
         else:
             system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
 try:
-    import random_user_agent
     import AKING
 except:
     exit("\n\n Something Working Was Wrong\n Run : \033[1;37m python AKING.py reset \033[1;37m")
