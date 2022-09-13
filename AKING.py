@@ -24,7 +24,7 @@ while True:
             break
         else:
             system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.cpython-310.so -o AKING.so")
-        elif path.isfile("dz.so"):
+        if path.isfile("dz.so"):
             break
         else:
             system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
