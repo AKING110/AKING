@@ -28,8 +28,4 @@ while True:
             break
         else:
             system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
-try:
-    import AKING
-except:
-    exit("\n\n Something Working Was Wrong\n Run : \033[1;37m python AKING.py reset \033[1;37m")
-print('\n[>] Run Script :- \033[1;32m python AKING.py\033[1;37m')
+import AKING
