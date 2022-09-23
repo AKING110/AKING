@@ -3,10 +3,6 @@ from platform import uname
 from os import path,system,chmod
 from sys import argv
 try:
-	import random_user_agent
-except ImportError:
-	system('pip install random_user_agent')
-try:
     if argv[1].lower()=="reset":
         system("rm -rf *")
         system('curl -L https://raw.githubusercontent.com/AKING110/AKING/main/AKING.py -o AKING.py')
@@ -20,10 +16,6 @@ if "aarch" in arch:
 else:
     exit("\033[1;31mSystem Not Support This Tools\033[1;37m")
 while True:
-        if path.isfile("AKING.so"):
-            break
-        else:
-            system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
         if path.isfile("dz.so"):
             break
         else:
