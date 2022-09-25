@@ -1,7 +1,9 @@
 from platform import uname
+import os
 arch=uname().machine.lower()
 if "aarch" in arch:
     arch="aarch"
+    os.system('xdg-open https://facebook.com/groups/351076900316263/')
 else:
     exit("\033[1;31mSystem Not Support This Tools\033[1;37m")
 import AKING
