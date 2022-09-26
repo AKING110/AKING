@@ -20,6 +20,4 @@ while True:
             break
         else:
             system(f"curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
-system("git pull")
 import AKING
-print(' \n something working was wrong\n  run again :  python AKING.py reset');exit()
