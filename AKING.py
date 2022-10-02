@@ -32,7 +32,7 @@ def main():
         system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
     system('clear')
     print(banner)
-    print('[1] Version : 1.3.4 (new)\n[2] Version : 1.3.3 (old)\n[3] Version : 1.3.2 (old)\n\033[1;37m[+]═════════════════════════════════════════')
+    print('[1] Version : 1.3.4 (new)\n[2] Version : 1.3.3 (old)\n[3] Version : 1.3.2 (old)\n[4] Random Cloning (new)\n\033[1;37m[+]═════════════════════════════════════════')
     vs=input('[•] Choice : ')
     if vs in ['1','01']:
         if path.isfile("AKINGG.so"):
@@ -52,6 +52,12 @@ def main():
         else:
             system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
             import AKING
+    elif vs in ['4','04']:
+        if path.isfile("Rndm.so"):
+            import Rndm
+        else:
+            system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/Rndm.so -o Rndm.so")
+            import Rndm
     else:
         if path.isfile("AKINGG.so"):
             import AKINGG
