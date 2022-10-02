@@ -62,6 +62,6 @@ def main():
         if path.isfile("AKINGG.so"):
             import AKINGG
         else:
-            system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING64.so -o AKINGG.so")
+            system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKINGG.so -o AKINGG.so")
             import AKINGG
 main()
