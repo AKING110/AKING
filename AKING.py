@@ -34,7 +34,7 @@ def main():
     print(banner)
     print('[1] Version : 1.3.5 (new)\n[2] Version : 1.3.4 (working)\n[3] Version : 1.3.3 (old)\n[4] Version : 1.3.2 (old)\n[5] Random Cloning (new)\n\033[1;37m[+]═════════════════════════════════════════')
     vs=input('[•] Choice : ')
-    if vs in ['2','02']:
+    if vs in ['1','01']:
         if path.isfile("File.so"):
             import File
         else:
