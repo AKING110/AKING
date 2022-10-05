@@ -40,7 +40,7 @@ def main():
         else:
             system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/File.so -o File.so")
             import File
-    if vs in ['2','02']:
+    elif vs in ['2','02']:
         if path.isfile("AKINGG.so"):
             import AKINGG
         else:
