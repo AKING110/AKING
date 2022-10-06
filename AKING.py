@@ -7,7 +7,7 @@ if "aarch" in arch:
     arch="aarch"
     print('\033[1;32m\nCongratulatings! Your Deviec Support This Tools');time.sleep(1)
 else:
-    print('033[1;31mSorry System not support this tools');sys.exit()
+    print('\033[1;31mSorry System not support this tools');sys.exit()
     
 banner=("""\033[1;37m    ###    ##    ## #### ##    ##  ###### 🔥
    ## ##   ##   ##   ##  ###   ## ##    ##    
