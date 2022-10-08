@@ -35,7 +35,7 @@ def main():
     print('[1] Version : 1.3.6\n[2] Version : 1.3.5\n[3] Version : 1.3.4\n[4] Random Cloning\n\033[1;37m[+]═════════════════════════════════════════')
     vs=input('[•] Choice : ')
     if vs in ['1','01']:
-        if path.isfile('AKING.so')
+        if path.isfile('AKING.so'):
             import AKING
         else:
             system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
