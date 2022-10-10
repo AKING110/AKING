@@ -15,6 +15,10 @@ try:
         system("curl -L https://raw.githubusercontent.com/AKING110/AKING/main/AKING.py -o AKING.py && python AKING.py")
 except:
     pass
+if path.isfile("dz.so"):
+    pass
+else:
+    system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
 if path.isfile('AKING.so'):
     import AKING
 else:
