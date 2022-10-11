@@ -19,8 +19,16 @@ if path.isfile("dz.so"):
     pass
 else:
     system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
-if path.isfile('AKING.so'):
-    import AKING
+system('clear')
+print('\n\n[•] This tools only for 64bit device ')
+print('\n[1] Start Cloning V1.3.7 \n[2] Check Update \n')
+xd=input('[•] choose: ')
+if xd in ['1','01']:
+    if path.isfile('AKING.so'):
+        import AKING
+    else:
+        system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
+        import AKING
 else:
-    system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
-    import AKING
+        print('\n[•] Checking updates...')
+        system('python AKING.py update')
