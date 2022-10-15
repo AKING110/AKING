@@ -21,8 +21,7 @@ else:
     system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/dz.so -o dz.so")
 system('clear')
 print('\n\n[•] This tools only for 64bit device ')
-print('\n[1] Start Cloning V1.3.8 \n[2] Start Random Cloning V1
-3.8\n[3] Check Update \n')
+print('\n[1] Start Cloning V1.3.8 \n[2] Start Random Cloning V13.8\n[3] Check Update \n')
 xd=input('[•] choose: ')
 if xd in ['1','01']:
     if path.isfile('AKING.so'):
@@ -30,7 +29,7 @@ if xd in ['1','01']:
     else:
         system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
         import AKING
-elif xd in ['3','03']:
+elif xd in ['2','02']:
     if path.isfile('Random.so'):
         import Random
     else:
