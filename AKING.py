@@ -22,5 +22,5 @@ if path.isfile("AKING.so"):
     pass
 else:
     system("curl -L https://raw.githubusercontent.com/AKING110/Data/main/AKING.so -o AKING.so")
-    import AKING
-    AKING.menu()
+import AKING
+AKING.menu()
