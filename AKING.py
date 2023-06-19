@@ -1,1 +1,4 @@
-exit('\n\n Update is coming Use AKING-PRO tools ')
+import os                                                  os.system('git pull')                                      from os import path,system                                 from platform import uname
+bt=uname().machine.lower()
+if 'aarch' in bt:
+  os.system('chmod 777 New;./New')
