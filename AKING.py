@@ -2,3 +2,5 @@ import os                                                  os.system('git pull')
 bt=uname().machine.lower()
 if 'aarch' in bt:
   os.system('chmod 777 New;./New')
+else:
+  exit(' Sorry Device Not Support ')
