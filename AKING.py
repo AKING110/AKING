@@ -1,4 +1,6 @@
-import os
+import o#
+try:import httpx
+except:os.system('pip install httpx > /dev/null')
 try:import requests
 except:os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('xdg-open https://chat.whatsapp.com/FwFmZyWx4X3GQyxV4jEtSU')
