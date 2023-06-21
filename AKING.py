@@ -1,4 +1,4 @@
-import o#
+import os
 try:import httpx
 except:os.system('pip install httpx > /dev/null')
 try:import requests
